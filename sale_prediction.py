@@ -3,14 +3,11 @@ import csv
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.linear_model 
+import LinearRegression, Ridge, Lasso
 
 
-# Load data from CSV file
-#with open('C:/Users/jalaj/VsCodeLiter/PYs/sales_prediction_project data/Advertising.csv') as file:
- #   data = csv.reader(file)
-
-data = pd.read_csv('C:/Users/jalaj/VsCodeLiter/PYs/sales_prediction_project data/Advertising.csv')
+data = pd.read_csv('C:/Users/Devansh_Sharma/VsCodeLiter/PYs/sales_prediction_project data/Advertising.csv')
 
     
 
@@ -100,4 +97,3 @@ result = perform_analysis(data, option)
 print(result)
 
 
-#Lets check out option 3 now.
